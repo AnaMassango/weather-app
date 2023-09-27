@@ -1,3 +1,4 @@
+
 body {
     font-family: "Roboto", sans-serif;
   }
@@ -26,6 +27,8 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 8px;
+    max-width: 600px;
+    
   }
   
   h3 {
