@@ -34,15 +34,21 @@
                 <input
                   type="submit"
                   value="Search"
-                  class="btn btn-primary w-100"
+                  class="form-control btn btn-primary shadow-sm w-100"
                 />
               </div>
+              <div class="col-3">
+                <button
+                  class="btn btn-success w-100"
+                  id="current-location-button"
+                >
+                  Current
+                </button>
+              </div>
             </div>
-          </form>
-          <div class="overview">
             <h1 id="city"></h1>
             <ul>
-              <li>Last updated: <span id="date"></span></li>
+              <li>Last updated:<span id="date"></span></li>
               <li id="description"></li>
             </ul>
           </div>
