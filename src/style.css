@@ -1,8 +1,5 @@
 body {
   font-family: "Quicksand", sans-serif;
-  background: linear-gradient(to top, #09203f 0%, #537895 100%);
-  /* background-color: #38598b; */
-  background-repeat: no-repeat;
   min-height: 100vh;
 }
 
