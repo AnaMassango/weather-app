@@ -121,7 +121,7 @@ function handleSubmit(event) {
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-search("New York");
+search("Lisbon");
 
 function clearInput() {
   // Delete text after submitting
